@@ -1,0 +1,72 @@
+.careers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.career-card {
+  /* background-color: #333; Dark background color */
+  color: #fff; /* Light text color */
+  border-radius: 8px;
+  padding: 20px;
+  min-width: 300px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.career-card:hover {
+  background-color: #555; /* Darker background color on hover */
+}
+
+.career-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: darkslategray;
+  display: block;
+}
+
+.career-info {
+  cursor: pointer;
+  background-color: #ffffff; /* White */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.career-heading {
+  color: #333333; /* Dark Grey */
+  font-size: 24px;
+  margin-bottom: 10px;
+  margin-top: 0;
+}
+
+.career-salary,
+.career-location {
+  color: rgb(60, 73, 73); /* Light Blue 500 */
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 0;
+  margin: 5px;
+}
+
+.career-description {
+  color: #555555; /* Grey 700 */
+  font-size: 16px;
+}
+.career-title-container {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  background-color: slategray;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.careers-error {
+  background-color: gray;
+  color: White;
+}
